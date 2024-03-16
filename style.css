@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .parent {
+  background-color: #ACE4E3;
+  height: 695px;
+  color: #003E29;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#a {
+  margin-left: 5px;
+}
+
+#b {
+  margin-right: 50px;
+}
+
+#c {
+  margin-bottom: 50px;
+}
+
+#d {
+  margin-left: 50px;
+} */
+.parent {
+  background-color: #ACE4E3;
+  height: 695px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 20px; */
+}
+
+.first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  /* padding: 50px; */
+}
+
+.first h4 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.secong H1 {
+  z-index: 1000;
+  position: sticky;
+}
+.first1{
+  background-color: #0B4350;
+  padding-top: 28% ;
+  padding-bottom: 22%;
+}
+.myths{
+  color: #F58BCF;
+  text-align: center;
+font-size: 30px;
+  padding-right: 900px;
+}
+.suicide{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-right: 1200px;
+}
